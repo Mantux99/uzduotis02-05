@@ -57,6 +57,25 @@
 
 // print $c=$aex[0] + $bex[0];
 
+//8 uzduotis:
+
+// $vardas = 'Jonas';
+// $pavarde = 'Jonaitis';
+// $atlyginimas = 5000;
+
+// if (isset($vardas) &&
+//     isset($pavarde) && $atlyginimas>=5000) {
+//     print 'visi duomenys yra';
+
+// }else{
+//     print $vardas .' '.
+//             $pavarde .' '.
+//             $atlyginimas;
+
+// }
+
+
+
 
 
 ?>
