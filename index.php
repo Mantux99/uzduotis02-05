@@ -46,4 +46,17 @@
 // };
 
 
+//Ketvirta uzduotis
+//Kokias operacijas atlikti su $a kintamuoju ir $b, kad atspausdintu skaiciu 11:
+
+// $a = "10 maisu";
+// $b = "1 maisu";
+
+// $aex = explode(" ",$a);
+// $bex = explode(" ",$b);
+
+// print $c=$aex[0] + $bex[0];
+
+
+
 ?>
