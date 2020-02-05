@@ -76,15 +76,21 @@
 
 //10. padidinkite masyvo elementu reiksmes 10 kartu ir atspausdinkite foreach pagalba. tekstines lieka nepakeistos:
 
-$a=array(10,20,30,1,1,50,0,0,"jonas","petras");
+// $a=array(10,20,30,1,1,50,0,0,"jonas","petras");
 
-foreach ($a as $value) {
-    if (is_integer($value)){
-        print $value * 10 . '<br>';
-    }
+// foreach ($a as $value) {
+//     if (is_integer($value)){
+//         print $value * 10 . '<br>';
+//     }
+// }
+
+//11 uzduotis. sukurkite seno masyvo pagrindu nauja masyva. sumazinkite jo elemtu kieki 2 kartus, t.y. paikite kas antra elementa ir atspausdinkite:
+//tarp [] skliaustu rasomas indexas visada
+$a=array(10,20,30,50,60,70,80);
+
+for ($x=0; $x<=count($a); $x+=2){
+    $b[] = $a[$x];
+   
 }
-
-
-
-
+var_dump($b);
 ?>
