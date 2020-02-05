@@ -74,6 +74,15 @@
 
 // }
 
+//10. padidinkite masyvo elementu reiksmes 10 kartu ir atspausdinkite foreach pagalba. tekstines lieka nepakeistos:
+
+$a=array(10,20,30,1,1,50,0,0,"jonas","petras");
+
+foreach ($a as $value) {
+    if (is_integer($value)){
+        print $value * 10 . '<br>';
+    }
+}
 
 
 
